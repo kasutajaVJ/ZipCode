@@ -1,0 +1,6 @@
+<resources>
+    <string name="lb_code">Code</string>
+    <string name="lb_city">City</string>
+    <string name="lb_clr">CLEAR</string>
+    <string name="lb_seek">SEARCH</string>
+</resources>
