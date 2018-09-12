@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView1);
     }
 
-    public void OnSearch(View view) {
+    public void onSearch(View view) {
         list = codes.search(code_text.getText().toString().trim(), city_text.getText().toString().trim());
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
         listView.setAdapter(adapter);
     }
 
-    public void OnClear(View view) {
+    public void onClear(View view) {
         code_text.setText("");
         city_text.setText("");
         list.clear();
